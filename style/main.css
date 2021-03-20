@@ -1,0 +1,44 @@
+:root {
+    --mainWhite: #fafffb;
+    --mainGreen: #226403;
+    --mainBlue: #0d2c54;
+    --lightBlue: #00a6ed;
+    --mainBlack: #6b6969;
+}
+
+body {
+    background: url("../image/image1.jfif") center/cover fixed no-repeat;
+    color: var(--mainWhite);
+    font-family: sans-serif;
+    font-size: 70px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    padding-bottom: 120px;
+}
+  
+.start,
+.stop, .reset {
+    box-shadow: 0 0.2rem 0.5rem rgba(255, 254, 254, 0.9);
+    background: var(--mainBlue);
+    color: var(--mainWhite);
+    padding: 15px;
+    font-size: 15px;
+}
+
+.start:hover {
+    background: var(--lightBlue);
+}
+
+.stop:hover {
+    background: var(--lightBlue);
+    
+}
+
+.reset:hover {
+    background: var(--lightBlue) ;
+  
+}
